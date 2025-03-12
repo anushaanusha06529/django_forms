@@ -12,4 +12,4 @@ def contact(request):
         else:
             return HttpResponse('invalid data')
 
-    return render(request,'contact.html',d)
+    return render(request,'insert_Topic.html',d)
